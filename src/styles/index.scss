@@ -1,0 +1,8 @@
+// configs
+// "_" is partial, act like import module; Also means it cannot be compile to a new CSS file
+// Cannot use it alone
+
+@import "variables";
+
+// layout
+@import "normalize";
