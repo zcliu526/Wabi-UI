@@ -4,5 +4,11 @@
 
 @import "variables";
 
-// layout
+// Page Layout
 @import "normalize";
+
+// mixin
+@import "../components/Button/mixin";
+
+// Button
+@import "../components/Button/style";

@@ -9,7 +9,6 @@ function App() {
         <Button disabled>Hello</Button>
         <Button btnType={ButtonType.Primary} size={ButtonSize.Large}>Hello</Button>
         <Button btnType={ButtonType.Link} href='https://www.google.com' disabled>Google Link</Button>
-        
       </header>
     </div>
   );
