@@ -1,16 +1,22 @@
-import React from 'react';
-import Button, { ButtonType, ButtonSize } from './components/Button/Button';
+import React from "react";
+// import Button, { ButtonType, ButtonSize } from './components/Button/Button';
+import Input from "./components/Input";
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Button disabled>Hello</Button>
-        <Button btnType={ButtonType.Primary} size={ButtonSize.Large}>Hello</Button>
-        <Button btnType={ButtonType.Link} href='https://www.google.com' disabled>Google Link</Button>
-      </header>
-    </div>
+    <>
+       <Input
+       style={{width: 300}}
+      defaultValue="large size"
+      size="lg"
+    />
+    <Input
+      placeholder="small size"
+      size="sm"
+    />
+
+    </>
   );
 }
 
